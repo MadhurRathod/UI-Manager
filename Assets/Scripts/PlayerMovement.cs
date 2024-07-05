@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float Speed = 5.0f;
-
+    public float Speed;
     void Update()
     {
         // Initialize movement vectore to zero
